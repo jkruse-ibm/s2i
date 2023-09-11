@@ -4,7 +4,7 @@
 echo "run custom asseblme script"
 echo "run mv comand to provide custom resources"
 
-mv /tmp/src/* /var/www/html/
+cp -Rf /tmp/src/* /var/www/html/
 
 echo "execute original script"
 
