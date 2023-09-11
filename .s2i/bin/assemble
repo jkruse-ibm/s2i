@@ -1,0 +1,5 @@
+#/bin/bash -e 
+
+/usr/libexec/assemble
+
+mv /tmp/src/* /var/www/html
