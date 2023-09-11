@@ -1,5 +1,10 @@
-#/bin/bash -e 
+#!/bin/bash -e 
+
+echo "run custom asseblme script"
+echo "first execute original script"
 
 /usr/libexec/assemble
 
-mv /tmp/src/* /var/www/html
+echo "run mv comand to provide custom resources"
+
+mv /tmp/src/* /var/www/html/
